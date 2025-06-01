@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Manage Your Task Lists</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Welcome Screen -->
+<section id="welcomeScreen" aria-label="Welcome screen">
+  <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Productivity Icon" />
+  <h1>Manage Your Task Lists</h1>
+  <p>Stay organized and boost your productivity.</p>
+  <button id="getStartedBtn" aria-label="Get Started to manage tasks">Get Started</button>
+</section>
+
+<!-- Main App -->
+<div id="app" aria-live="polite">
+  <nav aria-label="Application navigation">
+    <div class="logo">TaskManager</div>
+  </nav>
+
+  <form id="taskForm" aria-label="Add new task form">
+    <input
+      type="text"
+      id="taskTitle"
+      placeholder="Task title (required)"
+      required
+      aria-required="true"
+      autocomplete="off"
+      aria-label="Task title"
+    />
+    <input type="date" id="taskDate" aria-label="Task date (optional)" />
+    <input type="time" id="taskTime" aria-label="Task time (optional)" />
+    <button type="submit" id="addTaskBtn">Add Task</button>
+  </form>
+
+  <div class="filters" role="tablist" aria-label="Task filters">
+    <button role="tab" aria-selected="true" aria-controls="taskList" id="filterAll">All Tasks</button>
+    <button role="tab" aria-selected="false" aria-controls="taskList" id="filterPending">Pending Tasks</button>
+    <button role="tab" aria-selected="false" aria-controls="taskList" id="filterCompleted">Completed Tasks</button>
+  </div>
+
+  <ul id="taskList" aria-live="polite" aria-relevant="additions removals"></ul>
+
+  <button id="clearCompletedBtn" aria-label="Clear all completed tasks">Clear All Completed Tasks</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
