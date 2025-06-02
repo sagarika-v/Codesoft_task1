@@ -1,4 +1,22 @@
+# 📝 To-Do List ( A Task Manager )
+
+This To-Do List App is a clean, professional productivity tool designed to help users efficiently manage and organize their daily tasks. It features a modern welcome screen with an eye-catching image, bold headline, and a “Get Started” button that navigates to the main task manager. Users can add, edit, delete, and mark tasks as completed with ease. Tasks can also include scheduled date and time for better tracking. The app is built with a custom color theme, designed to feel like a mobile app with a responsive layout and polished user interface.
+
+ # Tech Stack:HTML, CSS, JavaScript
+
+---
+
+# 🚀 Features
+
+- ✅ Welcome screen with image and intro text
+- ✅ Add, edit, and delete tasks
+- ✅ Mark tasks as completed
+- ✅ Set date and time for each task
+- ✅ Responsive layout and mobile-friendly design
+- ✅ Custom color theme
+
 #📸 Screenshots
+
 ![Screenshot 2025-06-02 104338](https://github.com/user-attachments/assets/7c4726ec-c54e-45a0-a730-87fd9b21aecc)
 
 This screenshot highlights the intuitive design of the task management interface, making it easy for users to organize and track their tasks efficiently. The clean layout and prominent 'Get Started' button encourage quick adoption. With a focus on simplicity and functionality, this tool helps streamline productivity while maintaining a visually appealing experience.
